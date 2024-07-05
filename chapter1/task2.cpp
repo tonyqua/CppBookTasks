@@ -5,10 +5,11 @@ int main() {
     int number = 1; 
     
     while (count < 5) {
-        if (number % 2 != 0) {
+        /*if (number % 2 != 0) {
             std::cout << number << " ";
             count++;
-        }
+        }*/
+        number % 2 != 0 ? std::cout << number << " "; count++;
         number++;
     }
 
