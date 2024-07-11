@@ -1,8 +1,9 @@
 #include <iostream>
+
 const int size = 20;
 int arr[size];
+
 void arrayFunc() {
-	
 	arr[0] = 0;
 	arr[1] = 1;
 	for (int i = 2; i < size; ++i) {
